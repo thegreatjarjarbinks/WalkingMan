@@ -76,7 +76,7 @@ namespace WalkingMan
                 //pause
                 this.Refresh();
                 Thread.Sleep(100);
-
+                this.picWalkingMan.Left = picWalkingMan.Left - 10;
             } while (loopCounter < 10);
         }
     }
